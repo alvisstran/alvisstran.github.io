@@ -1,0 +1,54 @@
+.menuLeft{
+	height: 100%;
+	/*background: */
+}
+
+.menuLeft .stayLeft{
+	transform: translateX(-100%);
+
+}
+.blackScreen{
+	position: fixed;
+	top:0px;
+	left:0px;
+	z-index: 1;
+	background: rgba(0,0,0,0.42);
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+	transition: 0.4s;
+	opacity: 0;
+	visibility: hidden;
+
+}
+h3.display-3.text-xs-center{
+	font-size: 35px;
+	padding: 20px;
+	color: white;
+}
+.text-xs-center{
+	text-align: center!important;
+}
+.display-3{
+	font-size: 4.5rem;
+	font-weight: 300;
+}
+
+.blackScreen .showBlackUp{
+	opacity: 1;
+	visibility: visible;
+
+}
+
+.contentFull{
+	height: 100%;
+	background: #5cb85c;
+	width: 300px;
+}
+
+li.list-group-item{
+	background: none;
+	color: white;
+	text-transform: uppercase;
+
+}
